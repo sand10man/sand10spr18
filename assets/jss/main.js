@@ -1,4 +1,4 @@
-// not working in either version
+// current year is displayed
 (function yearFunction() {
     let d = new Date();
     let n = d.getFullYear();
