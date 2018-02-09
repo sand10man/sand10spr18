@@ -1,7 +1,7 @@
 // not working in either version
 (function yearFunction() {
-    var d = new Date();
-    var n = d.getFullYear();
+    let d = new Date();
+    let n = d.getFullYear();
     document.getElementById("year").innerHTML = n;
 })()
 
